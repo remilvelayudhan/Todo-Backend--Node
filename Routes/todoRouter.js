@@ -33,7 +33,7 @@ try{
     })
 }
    
-})
+});
 router.get('/alltodos/:id',async (req,res)=>{
     try{
         const todo= await  Todo.findById(req.params.id);
